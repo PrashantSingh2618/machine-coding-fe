@@ -1,0 +1,45 @@
+{
+  "name": "src",
+  "type": "folder",
+  "children": [
+    {
+      "name": "folder1",
+      "type": "folder",
+      "children": [
+        {
+          "name": "folder11",
+          "type": "file",
+          "children": []
+        },
+        {
+          "name": "file1.js",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "folder3",
+      "type": "folder",
+      "children": [
+        {
+          "name": "folder31",
+          "type": "folder",
+          "children": [
+            {
+              "name": "folder33",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "file1.js",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "index.js",
+      "type": "file"
+    }
+  ]
+}
