@@ -59,7 +59,9 @@ export default function FileExplorer() {
       </section>
 
       <section className="pb-12">
-        <div className="font-bold text-xl mb-4">{translations.problemStatement}</div>
+        <div className="font-bold text-xl mb-4">
+          {translations.problemStatement}
+        </div>
         <div className="font-semibold">{translations.fileExplorer}</div>
         {translations.fileExplorer2.map((el) => (
           <div className="ml-4">
@@ -72,7 +74,6 @@ export default function FileExplorer() {
         <div className=" mb-8 font-semibold">Implementation Demo</div>
         <FolderComponent node={mockData} />
       </section>
-
 
       <section className="">
         <a

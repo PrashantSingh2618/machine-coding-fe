@@ -5,21 +5,25 @@ import Grid from './Grid';
 import { useNavigate } from 'react-router-dom';
 
 function MatrixColoring() {
-   const navigate = useNavigate();
-      const handleBack = () => {
-          navigate(-1);
-      }
+  const navigate = useNavigate();
+  const handleBack = () => {
+    navigate(-1);
+  };
   return (
     <main className="py-4 bg-gray-200 h-screen">
-      <section className='p-8'>
-      <div className="flex flex-row  w-full">
-        <div onClick={handleBack} className="flex cursor-pointer hover:text-blue-500">
-          <span>&larr;</span> <div className="ml-2">Back</div>{' '}
+      <section className="p-8">
+        <div className="flex flex-row  w-full">
+          <div
+            onClick={handleBack}
+            className="flex cursor-pointer hover:text-blue-500"
+          >
+            <span>&larr;</span> <div className="ml-2">Back</div>{' '}
+          </div>
+          <div className="text-center w-full text-[30px] ">
+            {translations.matrixColoring}
+          </div>
         </div>
-        <div className="text-center w-full text-[30px] ">{translations.matrixColoring}</div>
-      </div>
       </section>
-
 
       <section className="p-8">
         <div></div>
