@@ -77,7 +77,7 @@ export default function FileExplorer() {
 
       <section className="">
         <a
-          href="https://github.com/PrashantSingh2618/"
+          href="https://github.com/PrashantSingh2618/machine-coding-fe/tree/master/src/pages/FileExplorer"
           target="_blank"
           className="underline cursor-pointer hover:text-blue-400"
         >

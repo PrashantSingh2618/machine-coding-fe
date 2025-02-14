@@ -43,7 +43,7 @@ function MatrixColoring() {
 
       <section className="p-8 w-1/6">
         <a
-          href="https://github.com/PrashantSingh2618/"
+          href="https://github.com/PrashantSingh2618/machine-coding-fe/blob/master/src/pages/MatrixColoring/Grid.tsx"
           target="_blank"
           className="underline cursor-pointer hover:text-blue-400"
         >
