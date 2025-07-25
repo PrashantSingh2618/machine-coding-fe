@@ -16,6 +16,16 @@ const translations = {
     `Multiple folder can be expanded at a time,
   `,
   ],
+
+  //  todoList
+  todoList: 'Todo List',
+  todoListProblemStatement2: [
+    `Create a todo form to create a todo`,
+    `Every todo item has a plus sign to create subtask for this todo and a checkbox to mark it complete or vice-versa`,
+    `Multiple todo and nesting for subtask can be done`,
+    `Items can be in expanded and in collapsed state`,
+    `If all child are marked as done then parent should also be marked as done and vice-versa`,
+  ],
 };
 
 export default translations;
