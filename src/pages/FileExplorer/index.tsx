@@ -43,14 +43,14 @@ export default function FileExplorer() {
     navigate(-1);
   };
   return (
-    <main className="px-24 bg-gray-200 h-screen">
+    <main className="p-8 bg-gray-200 h-full">
       <section>
-        <div className="flex flex-row py-16 w-full">
+        <div className="flex flex-row py-4 w-full">
           <div
             onClick={handleClick}
             className="flex cursor-pointer hover:text-blue-500"
           >
-            <span>&larr;</span> <div className="ml-2">Back</div>{' '}
+            <span>&larr;</span>
           </div>
           <div className="text-center w-full text-[30px]">
             File Explorer Implementation

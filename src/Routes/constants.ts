@@ -1,6 +1,7 @@
 import FileExplorer from '../pages/FileExplorer';
 import Home from '../pages/Home';
 import MatrixColoring from '../pages/MatrixColoring';
+import TodoList from '../pages/TodoList';
 
 // eslint-disable-next-line import/prefer-default-export
 export const routes = [
@@ -15,5 +16,9 @@ export const routes = [
   {
     path: '/matrix-coloring',
     component: MatrixColoring,
+  },
+  {
+    path: '/todoList',
+    component: TodoList,
   },
 ];

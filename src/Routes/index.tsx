@@ -14,7 +14,7 @@ export default function AllRoutes() {
         </div>
       }
     >
-      <div className="flex flex-col min-h-screen min-w-screen">
+      <div className="bg-gray-200 flex flex-col min-h-screen min-w-screen">
         <Routes>
           <Route element={<RootLayout />}>
             <Route>{RouteList}</Route>

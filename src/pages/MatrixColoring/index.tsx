@@ -10,14 +10,14 @@ function MatrixColoring() {
     navigate(-1);
   };
   return (
-    <main className="py-4 bg-gray-200 h-screen">
+    <main className="bg-gray-200">
       <section className="p-8">
         <div className="flex flex-row  w-full">
           <div
             onClick={handleBack}
             className="flex cursor-pointer hover:text-blue-500"
           >
-            <span>&larr;</span> <div className="ml-2">Back</div>{' '}
+            <span>&larr;</span>
           </div>
           <div className="text-center w-full text-[30px] ">
             {translations.matrixColoring}
@@ -31,7 +31,7 @@ function MatrixColoring() {
         <div className="font-bold">{translations.matrixProblemStatement} </div>
 
         {translations.matrixProblemStatement2.map((el) => (
-          <div className="ml-4">
+          <div className="">
             {' '}
             {`>`} {el}{' '}
           </div>
@@ -41,7 +41,7 @@ function MatrixColoring() {
         <Grid />
       </section>
 
-      <section className="p-8 w-1/6">
+      <section className="p-8 ">
         <a
           href="https://github.com/PrashantSingh2618/machine-coding-fe/blob/master/src/pages/MatrixColoring/Grid.tsx"
           target="_blank"
